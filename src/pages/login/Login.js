@@ -14,6 +14,7 @@ import {
     faSuitcase,
     faBars,
     faClose,
+    faKey
 } from '@fortawesome/free-solid-svg-icons'
 
 const Login = () => {
@@ -22,18 +23,24 @@ const Login = () => {
             <form >
                 <div>
                     <label>
-                        <span>Username</span>
+                        <span>
+                        <FontAwesomeIcon icon={faUser} className='mr-2' />
+                            Username
+                        </span>
                         <input
                             className='p-2 border border-gray-300 rounded'
-                            placeholder='answerer name here'
+                            placeholder='Answerer name here'
                             required
-                            type="email"
+                            type="text"
                         />
                     </label>
                 </div>
                 <div className='mt-2'>
                     <label>
-                        <span>Password</span>
+                        <span>
+                        <FontAwesomeIcon icon={faKey} className='mr-2' />
+                            Password
+                        </span>
                         <input
                             className='p-2 border border-gray-300 rounded'
                             placeholder='******'
@@ -47,11 +54,10 @@ const Login = () => {
             <div className='mt-10'>
                 You can login with below
                 <div>
-                <FontAwesomeIcon icon={ faTwitter} />
-                <span/>
-                <FontAwesomeIcon icon={ faGoogle} />
+                    <FontAwesomeIcon icon={faTwitter} />
+                    <span />
+                    <FontAwesomeIcon icon={faGoogle} />
                 </div>
-                
             </div>
         </div>
     )
