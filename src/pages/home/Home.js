@@ -1,13 +1,13 @@
 import React from 'react'
 import "../home/Home.css"
-import MyCarousel from '../../components/slick/MyCarousel.js'
+import Questions from '../../components/questions/Questions.js'
 import Answers from '../../components/answers/Answers'
 
 const Home = () => {
   return (
     <div>
       <div className='m-10'>
-        <MyCarousel />
+        <Questions />
       </div>
       <div>
         <Answers />

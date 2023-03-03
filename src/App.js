@@ -5,7 +5,7 @@ import Login from '../src/pages/login/Login.js'
 import Home from '../src/pages/home/Home.js'
 import Register from '../src/pages/register/Register.js'
 
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {

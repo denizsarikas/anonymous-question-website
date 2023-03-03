@@ -1,22 +1,8 @@
 import '../register/Register.css'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faTwitter,
-  faGoogle,
-  faYoutube,
-  faSkype,
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  faHome,
-  faUser,
-  faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-  faKey
-  
-} from '@fortawesome/free-solid-svg-icons'
+import {faTwitter,faGoogle} from '@fortawesome/free-brands-svg-icons'
+import {faUser,faEnvelope,faKey} from '@fortawesome/free-solid-svg-icons'
 
 const Register = () => {
   return (
